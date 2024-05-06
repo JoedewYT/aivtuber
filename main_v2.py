@@ -4,7 +4,7 @@ import json
 
 # Function to speak out the text
 def speak(text):
-    subprocess.run(["espeak", "-ven+f1", "-p90", "-s200", text])
+    subprocess.run(["espeak-ng", "-ven+f1", "-p90", "-s200", text])
 
 # Function to save conversation history to a file
 def save_conversation(conversation_history, filename):

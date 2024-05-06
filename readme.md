@@ -5,4 +5,7 @@ this is an ongoing project to create a vtuber powered by a locally ran ai model,
 
 ## DEPENDENCIES
 Ollama (python library)
-Espeak (command line application)
+Espeak-ng (command line application)
+
+## LINKS
+[https://github.com/espeak-ng/espeak-ng](https://github.com/espeak-ng/espeak-ng)
